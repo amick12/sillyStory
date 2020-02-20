@@ -51,7 +51,7 @@ function result() {
     newStory = newStory.replace('300 pounds', weight);
 
   }
-	// set textContent equal to story var
+	// set textContent equal to newStory var
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
